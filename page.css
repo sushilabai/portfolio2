@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🌸 HEADER */
+#header {
+  background-color: black;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  flex-direction: row;
+  padding: 20px 40px;
+  font-size: 24px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div1 a {
+  color:cyan;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.div1 a:hover {
+  color: lightgreen;
+}
+
+/* 🌸 HOME SECTION */
+#Home {
+  background: url('https://img.freepik.com/free-photo/vertical-shot-body-water-with-pink-sky-sunset-perfect-wallpaper_181624-5246.jpg?semt=ais_hybrid&w=740&q=80')
+    no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 150px 50px 50px;
+  color: white;
+  text-align: left;
+}
+
+#Home h2 {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+#Home h1 span {
+  color: rgb(31, 25, 5);
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+#Home h2:last-of-type {
+  font-size: 2vw;
+  max-width: 900px;
+  line-height: 1.5;
+  color: rgb(10, 3, 3);
+}
+
+/* 🌸 ABOUT SECTION */
+#About {
+  background: url('https://img.freepik.com/free-vector/realistic-blurred-spring-background_52683-55622.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 80px 40px;
+  color: #222;
+}
+
+#About .image img {
+  max-width: 350px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.about {
+  max-width: 700px;
+  text-align: left;
+}
+
+.about h1 {
+  font-size: 3vw;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.about h2 {
+  font-size: 1.5vw;
+  line-height: 1.6;
+}
+
+/* 🌸 SKILL SECTION */
+#Skill {
+  background: url('https://png.pngtree.com/background/20220714/original/pngtree-pure-original-hand-painted-cartoon-dream-new-background-material-on-new-picture-image_1621859.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  padding: 100px 50px;
+  text-align: left;
+}
+
+#Skill h1 {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#Skill h2 {
+  font-size: 1.5vw;
+  padding: 10px 30px;
+}
+
+/* 🌸 EDUCATION SECTION */
+#Education {
+  background: url('https://png.pngtree.com/thumb_back/fw800/background/20230817/pngtree-cherry-blossom-against-the-sky-image_13026017.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  padding: 100px 50px;
+}
+
+#Education h1 {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#Education h2 {
+  font-size: 1.5vw;
+  padding: 10px 30px;
+  line-height: 1.5;
+}
+
+/* 🌸 CONTACT SECTION */
+#Contact {
+  background: url('https://i.pinimg.com/736x/9e/af/a9/9eafa90f31ffc8f52e6603e30e4f6d8f.jpg')
+    no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  font-family: Arial, sans-serif;
+  height: auto;
+}
+
+#Contact h1 {
+  font-size: 3vw;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#Contact h2 {
+  font-size: 1.3vw;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+#Contact input,
+#Contact textarea {
+  width: 75%;
+  max-width: 500px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Contact textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+#Contact button {
+  background-color: black;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+#Contact button:hover {
+  background-color: #333;
+}
+
+/* 🌸 FOOTER */
+.Footer {
+  background-color: darkgreen;
+  padding: 20px;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.Footer a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.Footer a:hover {
+  color: yellow;
+}
+
+/* 🌸 RESPONSIVE STYLES */
+
+/* ——— Laptops and Large Screens ——— */
+@media (max-width: 1200px) {
+  #Home h1 span {
+    font-size: 5vw;
+  }
+
+  #Home h2 {
+    font-size: 3vw;
+  }
+
+  #About h2,
+  #Skill h2,
+  #Education h2 {
+    font-size: 1.8vw;
+  }
+}
+
+/* ——— Tablets ——— */
+@media (max-width: 992px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div1 {
+    justify-content: center;
+  }
+
+  .div1 a {
+    margin: 10px;
+  }
+
+  #About {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #About .image img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about h2 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  #Skill h1,
+  #Education h1,
+  #Contact h1 {
+    font-size: 5vw;
+  }
+
+  #Skill h2,
+  #Education h2,
+  #Contact h2 {
+    font-size: 20px;
+  }
+}
+
+/* ——— Smartphones ——— */
+@media (max-width: 768px) {
+  #Home {
+    align-items: center;
+    text-align: center;
+    padding-top: 180px;
+  }
+
+  #Home h1 span {
+    font-size: 9vw;
+  }
+
+  #Home h2 {
+    font-size: 7vw;
+  }
+
+  #Home h2:last-of-type {
+    font-size: 4vw;
+  }
+
+  #About,
+  #Skill,
+  #Education {
+    padding: 60px 20px;
+  }
+
+  #Contact input,
+  #Contact textarea {
+    width: 90%;
+  }
+
+  .Footer {
+    font-size: 16px;
+  }
+
+  .Footer a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* ——— Small / Keypad Phones (extra small) ——— */
+@media (max-width: 480px) {
+  #header {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .div1 a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  #Home h1 span {
+    font-size: 8vw;
+  }
+
+  #Home h2 {
+    font-size: 5vw;
+  }
+
+  #Home h2:last-of-type {
+    font-size: 4vw;
+  }
+
+  #About h1,
+  #Skill h1,
+  #Education h1,
+  #Contact h1 {
+    font-size: 6vw;
+  }
+
+  #About h2,
+  #Skill h2,
+  #Education h2,
+  #Contact h2 {
+    font-size: 16px;
+  }
+
+  #Contact button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .Footer {
+    font-size: 14px;
+  }
+}
