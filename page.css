@@ -85,6 +85,7 @@
   flex-wrap: wrap;
   padding: 80px 40px;
   color: #222;
+  height: 100vh;
 }
 
 #About .image img {
@@ -117,6 +118,7 @@
   width: 100%;
   padding: 100px 50px;
   text-align: left;
+  height: 100vh;
 }
 
 #Skill h1 {
@@ -136,6 +138,7 @@
     no-repeat center center/cover;
   width: 100%;
   padding: 100px 50px;
+  height: 100vh;
 }
 
 #Education h1 {
@@ -157,7 +160,7 @@
   text-align: center;
   padding: 100px 20px;
   font-family: Arial, sans-serif;
-  height: auto;
+  height: 100vh;
 }
 
 #Contact h1 {
@@ -376,3 +379,4 @@
     font-size: 14px;
   }
 }
+
